@@ -175,4 +175,3 @@ class PrivateRecipeApiTests(TestCase):
         self.assertEqual(recipe.time_minutes, payload['time_minutes'])
         tags = recipe.tags.all()
         self.assertEqual(len(tags), 0)
-
